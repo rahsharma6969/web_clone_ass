@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Web Clone</title>
+    <style>
+      body {
+        background-image: url("assets/background-image.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent flex flex-col items-center justify-center">
+      <div class="nav flex justify-center">
+        <div
+          class="element flex flex-row justify-between space-x-8 text-lg font-medium text-black-600 mt-6"
+        >
+          <p>RETAIL</p>
+          <p>SME</p>
+          <p>CORPORATE</p>
+          <p>ABOUT US</p>
+          <p>COVID 19</p>
+          <p class="mr-8">CAMPAIGNS</p>
+
+          <!-- Search bar container with added margin-right -->
+          <div class="flex items-center space-x-2 mr-32 px-20">
+            <img src="assets/search-icon.png" alt="Search" />
+            <button class="bg-pink-600 text-white px-4 py-2">iService</button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="car flex bg-offwhite-600 rounded-full p-2 max-w-xs mx-auto shadow-lg"
+      >
+        <img src="assets/car.png" alt="Car" class="mr-2" /> Car Loan
+      </div>
+    </div>
+
+    <div class="content flex flex-row justify-center items-center ">
+      <div
+        class="content-left flex-col justify-content items-center mb-800 mt-10 ml-20"
+      >
+        <!-- Added mt-10 for top margin -->
+        <h1 class="text-6xl text-black-700 font-bold">
+          Chase Your <br />
+          Dreams with us
+        </h1>
+        <br />
+        <p>
+          The harder you work for something, the <br />
+          greater you'll feel when you achieve it.
+        </p>
+        <br />
+        <div
+          class="online bg-pink-700 rounded-md inline-flex items-center px-4 py-2 mx-10"
+        >
+          <button class="text-white">APPLY ONLINE</button>
+        </div>
+
+        <div
+          class="online bg-white rounded-md inline-flex items-center px-4 py-2 mx-10 border-2 border-pink-500"
+        >
+          <button class="text-pink-500">LOAN CALCULATOR</button>
+        </div>
+
+        <div class="social flex items-center space-x-3 mr-32 mt-20">
+          <img src="assets/phone.png" alt="Contact" /> +91 9473756472 |
+          <img src="assets/linkedin.png" alt="Contact" />
+          <img src="assets/facebook.png" alt="Contact" />
+          <img src="assets/youtube.png" alt="Contact" />
+          <img src="assets/instagram.png" alt="Contact" />
+        </div>
+      </div>
+
+      <div class="family-img">
+        <img src="assets/hero-image.png" alt="family" />
+      </div>
+  
+      <div class="Home flex flex-row items-center justify-content border rounded-md shadow-lg bg-white p-2  h-16 w-32">
+        <img src="assets/House.png" alt="home" class="h-6 w-6 mr-2" />Home Loan
+    </div>
+
+     
+
+    </div>
+  </body>
+</html>
